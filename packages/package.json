@@ -2,7 +2,11 @@
   "name": "@careteen/uniapp-components",
   "private": false,
   "version": "0.2.2",
-  "description": "uniapp virtual list",
+  "description": "uniapp components",
+  "keywords": [
+    "uniapp",
+    "virtual-list"
+  ],
   "author": "careteenL <15074806497@163.com>",
   "homepage": "https://github.com/careteenL/uniapp-components",
   "license": "MIT",
