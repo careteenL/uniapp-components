@@ -1,13 +1,10 @@
 # uniapp-components
-
-虚拟滚动列表，支持以下功能
-
-- 虚拟滚动
-- 动态高度
-- 每一项可操作
-
-
 ## Usage
+
+0. 安装组件
+```shell
+yarn add @careteen/uniapp-components
+```
 
 1. 在`src/pages.json`中配置`easycom`
 ```json
@@ -21,7 +18,13 @@
 <care-virtual-list text="remote" />
 ```
 
-更多 api 请前往
+### 组件列表
+
+| 名称 | 组件 | 备注 |
+| :--- | :-------- | ----:|
+| 虚拟滚动列表 | [uniapp-virtual-list](./docs/components/index[src.components.uniapp-virtual-list].md)  | 支持 1.虚拟滚动 2.动态高度 3.每一项可操作
+
+## 贡献指南
 
 ```shell
 # Project setup
