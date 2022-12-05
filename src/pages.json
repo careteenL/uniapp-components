@@ -1,6 +1,6 @@
 {
 	"easycom": {
-		"^care-(.*)": "@careteen/uniapp-virtual-list/components/uniapp-$1/index.vue"
+		"^care-(.*)": "@careteen/uniapp-components/components/uniapp-$1/index.vue"
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{

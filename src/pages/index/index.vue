@@ -2,7 +2,7 @@
   <view :class="pageClass">
 		<view class="title">动态高度- {{ mockDataLen }}条数据</view>
 
-    <virtual-list
+    <care-virtual-list
       ref="virtualList"
       v-model="visibleList"
       height="calc(100vh - 100px - 80rpx)"
@@ -37,21 +37,21 @@
       <template #footer>
         <view v-if="loadingStatus.lower">下拉加载中...</view>
       </template>
-    </virtual-list>
+    </care-virtual-list>
 
     <view class="skip" @click="handleSkip">点击跳转至60</view>
   </view>
 </template>
 
 <script>
-import VirtualList from '../../components/uniapp-virtual-list'
+// import VirtualList from '../../components/uniapp-virtual-list'
 import { random } from '../../components/uniapp-virtual-list/utils'
 
 export default {
   name: 'PageDynamic',
 
   components: {
-    VirtualList
+    // VirtualList
   },
 
   data() {
