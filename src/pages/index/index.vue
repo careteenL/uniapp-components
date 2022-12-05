@@ -3,6 +3,7 @@
 		<view>
 			<virtual-list text="hello" />
 			<virtual-list text="uniapp" />
+			<care-virtual-list text="remote" />
 		</view>
 	</view>
 </template>
@@ -17,7 +18,7 @@
 			}
 		},
 		components: {
-			VirtualList,
+			VirtualList
 		},
 		onLoad() {
 

@@ -9,6 +9,20 @@
 
 ## Usage
 
+1. 在`src/pages.json`中配置`easycom`
+```json
+"easycom": {
+  "^care-(.*)": "@careteen/uniapp-virtual-list/components/uniapp-$1/index.vue"
+}
+```
+
+2. 在页面中使用组件
+```html
+<care-virtual-list text="remote" />
+```
+
+更多 api 请前往
+
 ```shell
 # Project setup
 yarn install

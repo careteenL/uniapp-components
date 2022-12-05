@@ -1,6 +1,6 @@
 {
   "name": "uniapp-virtual-list",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "private": true,
   "scripts": {
     "start": "npm run dev:mp-weixin",
@@ -51,6 +51,7 @@
     "test:mp-weixin": "cross-env UNI_PLATFORM=mp-weixin jest -i"
   },
   "dependencies": {
+    "@careteen/uniapp-virtual-list": "^0.2.2",
     "@dcloudio/uni-app-plus": "^2.0.1-alpha-36420220922001",
     "@dcloudio/uni-h5": "^2.0.1-alpha-36420220922001",
     "@dcloudio/uni-i18n": "^2.0.1-alpha-36420220922001",
