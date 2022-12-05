@@ -22,6 +22,9 @@
 </template>
 
 <script>
+/**
+ * @desc ss
+ */
 import { throttle, binarySearch } from './utils'
 
 // 页面的上下文(this)，由于小程序端无法在data中存储this引用（会抛出异常）

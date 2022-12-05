@@ -1,5 +1,6 @@
-# uniapp-components
-## Usage
+# @careteen/uniapp-components
+
+## 快速使用
 
 0. 安装组件
 ```shell
@@ -15,7 +16,7 @@ yarn add @careteen/uniapp-components
 
 2. 在页面中使用组件
 ```html
-<care-virtual-list text="remote" />
+<care-virtual-list>...</care-virtual-list>
 ```
 
 ### 组件列表
@@ -30,7 +31,7 @@ yarn add @careteen/uniapp-components
 # Project setup
 yarn install
 
-# Compiles and hot-reloads for development
+# Compiles and hot-reloads for development 打开微信小程序调试
 yarn start
 
 # Preview Doc
