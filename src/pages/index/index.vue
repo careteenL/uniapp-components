@@ -1,18 +1,23 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
 		<view>
-			<text class="title">{{title}}</text>
+			<virtual-list text="hello" />
+			<virtual-list text="uniapp" />
 		</view>
 	</view>
 </template>
 
 <script>
+	import VirtualList from '../../components/uniapp-virtual-list'
+
 	export default {
 		data() {
 			return {
 				title: 'Hello'
 			}
+		},
+		components: {
+			VirtualList,
 		},
 		onLoad() {
 

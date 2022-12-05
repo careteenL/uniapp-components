@@ -1,0 +1,22 @@
+{
+  "name": "@careteen/uniapp-virtual-list",
+  "private": false,
+  "version": "0.0.1",
+  "description": "uniapp virtual list",
+  "author": "careteenL <15074806497@163.com>",
+  "homepage": "https://github.com/careteenL/uniapp-virtual-list",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:careteenL/uniapp-virtual-list.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "browserslist": [
+    "Android >= 4",
+    "ios >= 8"
+  ]
+}
