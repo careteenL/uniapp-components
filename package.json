@@ -7,7 +7,7 @@
     "serve": "npm run dev:h5",
     "build": "npm run build:h5",
     "docs:gen": "hjtvuese gen",
-    "docs:preview": "docs:gen && hjtvuese serve --open",
+    "start:doc": "yarn docs:gen && hjtvuese serve --open",
     "build:npm": "node build/index.js npm",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",

@@ -29,8 +29,12 @@ yarn add @careteen/uniapp-components
 ```shell
 # Project setup
 yarn install
+
 # Compiles and hot-reloads for development
 yarn start
+
+# Preview Doc
+yarn start:doc
 
 # Compiles and minifies for production
 yarn build
@@ -38,3 +42,11 @@ yarn build
 # Customize configuration
 # See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
+
+
+<!-- 备份 -->
+<!-- [Github Demo Source](https://github.com/careteenL/uniapp-components/blob/master/src/pages/index/index.vue)
+
+<br/>
+
+<img src="https://t1.focus-img.cn/dist/image/dist/estate/9b7b49ac16fb00a11f21fb2383edf3a8.GIF" height="500px" /> -->
