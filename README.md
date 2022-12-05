@@ -1,4 +1,4 @@
-# uniapp-virtual-list
+# uniapp-components
 
 虚拟滚动列表，支持以下功能
 
@@ -12,7 +12,7 @@
 1. 在`src/pages.json`中配置`easycom`
 ```json
 "easycom": {
-  "^care-(.*)": "@careteen/uniapp-virtual-list/components/uniapp-$1/index.vue"
+  "^care-(.*)": "@careteen/uniapp-components/components/uniapp-$1/index.vue"
 }
 ```
 
